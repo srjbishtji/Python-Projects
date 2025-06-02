@@ -1,0 +1,61 @@
+
+### 2. **Hints or Range Narrowing**
+
+* After each guess, besides “Too High” or “Too Low,” tell the user the updated possible range.
+* For example, if guess was 30 and it’s too low, say “Try a number between 31 and 100.”
+
+---
+
+### 3. **High Score / Best Score Tracking**
+
+* Save and show the fewest attempts used to win at each difficulty.
+* You can store these best scores in a separate file and show them when the game starts.
+
+---
+
+### 4. **Timer**
+
+* Track and show how much time the player took to guess the number.
+* Adds another challenge element!
+
+---
+
+### 5. **Leaderboard**
+
+* Save multiple players' names and their scores (attempts and difficulty).
+* Show a leaderboard of best players and scores.
+
+---
+
+### 6. **Difficulty Explanation**
+
+* Print a quick explanation of what easy/medium/hard means (e.g., attempts allowed, number range) before they select.
+
+---
+
+### 7. **GUI Version**
+
+* If you want to go beyond terminal, you can build a simple graphical interface with `tkinter` or similar.
+
+---
+
+### 8. **Sound Effects (if GUI)**
+
+* Add sounds on correct guess or wrong guess for feedback.
+
+---
+
+### 9. **Guess History**
+
+* Show the user the list of guesses they’ve made so far.
+
+---
+
+### 10. **Custom Difficulty**
+
+* Let user enter their own max attempts and range to customize the game.
+
+---
+
+### Which of these sounds interesting to you? I can help you implement any!
+
