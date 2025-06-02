@@ -1,7 +1,0 @@
-Difficulty: Easy, Result: Win, Attempts: 2
-Difficulty: Easy, Result: Loss, Correct Number: 11
-Difficulty: Easy, Result: Loss, Correct Number: 81
-Difficulty: Easy, Result: Loss, Correct Number: 10
-Difficulty: Medium, Result: Loss, Correct Number: 22
-Difficulty: Easy, Result: Loss, Correct Number: 10
-Difficulty: Easy, Result: Loss, Correct Number: 6
