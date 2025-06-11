@@ -1,12 +1,13 @@
 # CORE LOGIC
 
-print("Select 1 for Addition (+)")
-print("Select 2 for Subtraction (-)")
-print("Select 3 for Multiplication (*)")
-print("Select 4 for FLoat Division (/)")
-print("Select 5 for Integer Division (//)")
-print("Select 6 for Exponent (**)")
-print("Select 7 for Remainder (%)")
+def show_menu():
+    print("\nSelect 1 for Addition (+)")
+    print("Select 2 for Subtraction (-)")
+    print("Select 3 for Multiplication (*)")
+    print("Select 4 for Float Division (/)")
+    print("Select 5 for Integer Division (//)")
+    print("Select 6 for Exponent (**)")
+    print("Select 7 for Remainder (%)")
 
 def calculation(a,b,option):
             if option == 1:
@@ -27,6 +28,7 @@ def calculation(a,b,option):
                 return "Choose an option"
             
 while True:
+    show_menu()
     try:
         # numbers = map(int,input("enter the numbers : ").split(","))
         numbers = input("Enter two numbers comma separated or type 'history' to view past calculations: ").strip()
