@@ -54,12 +54,11 @@ while True:
         option = int(input("enter the Choice : "))
         
         if b == 0 and (option == 4 or option == 5 or option == 7):
-            print("ZeroDivisionError") 
-            continue              
-      
+            raise ZeroDivisionError("Cannot divide by zero.")
+            
         if option not in range(1,8):
              print("Invalid choice! Please select a number from 1 to 7")
-             continue
+             
         calci = calculation(a,b,option)
         print(f"Result: {calci}")
 
@@ -77,3 +76,5 @@ while True:
         
     except ValueError:
         print("Invalid input! Please enter two numbers separated by a comma, like 4,5.")
+    except ZeroDivisionError as e:
+        print(f"Error: {e}")
