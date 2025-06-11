@@ -65,6 +65,7 @@ while True:
         print(f"Result: {calci}")
 
         again = input('enter "yes" to continue : ').lower()
+        
         with open("calculation_history.txt", "a") as file:
             result = f"Numbers is : {a}, {b} and option is : {option} and The calculation is : {calci}\n"
             file.write(result)
